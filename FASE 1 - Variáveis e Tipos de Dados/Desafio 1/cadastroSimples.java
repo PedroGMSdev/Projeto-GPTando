@@ -13,6 +13,6 @@ public class CadastroSimples {
        System.out.print ("Digite sua idade: ");
        String idade = entrada.nextLine();
        
-       System.out.println ("Olá, " + nome + "! Sua idade é " + idade + " anos.");
+       System.out.println ("Olá, " + nome + "! Você tem " + idade + " anos.");
     }
 }

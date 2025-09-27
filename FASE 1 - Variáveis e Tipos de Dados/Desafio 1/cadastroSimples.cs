@@ -11,6 +11,6 @@ class CadastroSimples {
         Console.Write ("Digite sua idade: ");
         int idade = int.Parse(Console.ReadLine()); //colocar o int.Parse() faz converter o resultado digitado em inteiro e voltar como uma string, já que o Console.ReadLine volta sempre uma string, então sem ele, daria erro se o usuário escrevesse um inteiro. Assim, dá erro se ele não escrever um inteiro.
         
-        Console.Write ("Olá, " + nome + "! Sua idade é " + idade + " anos.");
+        Console.Write ("Olá, " + nome + "! Você tem " + idade + " anos.");
     }
 }
