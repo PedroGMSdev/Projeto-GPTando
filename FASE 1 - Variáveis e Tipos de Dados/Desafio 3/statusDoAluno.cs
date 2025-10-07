@@ -3,13 +3,16 @@
 
 using System;
 
-class StatusDoAluno
-{
-    static void Main
-    {
-        Console.Whrite ("Digite sua nota final: ");
-        string notaFinal = double.Parse(Console.ReadLine());
+class StatusDoAluno {
+    static void Main() {
+        Console.Write ("Digite sua nota final: ");
+        double notaFinal = double.Parse(Console.ReadLine());
 
-        if ()
+        if (notaFinal< 6) {
+            Console.Write("Reprovado!");
+        }
+        else {
+            Console.Write("Aprovado!");
+        }
     }
 }
